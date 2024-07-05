@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(63, 63, 63);
+  width: 1860px;
+  height: 704px;
+}
+
+.card {
+  background-color: #101010;
+  width: 280px;
+  height: 672px;
+  top: 81px;
+  border-radius: 12px;
+  color: aliceblue;
+  /* text-align: center; */
+}
+.card-body {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+  margin-left: 20px;
+}
+.card-text {
+  display: flex;
+  /* align-items: center; */
+  gap: 0.5rem;
+  margin-left: 20px;
+  background-color: #1a1a1a;
+}
+
+.half {
+  width: 50%;
+}
